@@ -49,18 +49,55 @@ print(sorted(c, reverse=True))
 '''
 难度等级 III
 将一个英文语句以单词为单位逆序排放，如 "i am a boy" 逆序排放后 "boy a am i"
+'''
+e = 'i am a boy'
+ee = e.split()
+ee.reverse()
+eee = " ".join(ee)
+print(eee)
 
+'''
 难度等级 III
 假设今天的上课时间为5678秒，编程计算今天上课时间是多少时，多少分，多少秒，以“xx时xx分xx秒”的形式表示出来。
-
+'''
+f = 5678
+f1 = f // (60 * 60)
+f2 = f % (60 * 60) // 60
+f3 = f % 60
+print(f"{f1}时{f2}分{f3}秒")
+'''
 难度等级 I
 通过分片创一个与原列表实现反转的列表
-
+'''
+ff = [1, 2, 3, 4, 5, 6]
+ff.reverse()
+print(ff)
+fff = [1, 2, 3, 4, 5, 6][::-1]
+print(fff)
+'''
 难度等级 I
 列表一次性追加多个值，用多种方法实现
+'''
+g = []
+g.append('1')
+g.extend('123')
+print(g)
 
+'''
 难度II
 输入字符串，将字符串的开头和结尾变成'+'，产生一个新的字符串
-
+'''
+h = input("请输入：")
+h = list(h)
+h[0] = "+"
+h[-1] = "+"
+h = "".join(h)
+print(h)
+'''
 课堂布置的作业 字符串的count index 方法
 '''
+j="aahdhjociodjij"
+jj=j.count("a")
+jjj=j.index("h")
+print(jj)
+print(jjj)
