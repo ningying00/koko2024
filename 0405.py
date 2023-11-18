@@ -62,6 +62,7 @@ def flower_num(num=153):
 '''
 
 
+# 初始版本1(没有相邻的位置比）
 def rang_ll(l=[1, 3, 7, 2, 4, 0]):
     for i in range(len(l)):
         for j in range(i, len(l)):
@@ -69,8 +70,34 @@ def rang_ll(l=[1, 3, 7, 2, 4, 0]):
                 l[i], l[j] = l[j], l[i]
     return l
 
+def rang_l1(l=[1, 3, 7, 2, 4, 0]):
+    for i in range(len(l)-1):
+        for j in range(len(l)-i-1):
+            if l[j] > l[j+1]:
+                l[j], l[j+1] = l[j+1], l[j]
+    return l
 
-# print(rang_ll())
+
+# 学习后优化版本
+def rang_ll1(l=[1, 3, 7, 2, 4, 0]):
+    sort_range = len(l)-1
+    sort_range_len = 0
+    for i in range(len(l)-1):
+        is_sort = True
+        for j in range(sort_range):
+            if l[j] > l[j+1]:
+                l[j], l[j+1] = l[j+1], l[j]
+                is_sort = False
+                sort_range_len = j
+        sort_range = sort_range_len
+        if is_sort:
+            break
+    return l
+
+
+print(rang_ll())
+print(rang_l1())
+print(rang_ll1())
 '''难度等级 II
         实现一个 函数 get_min, 函数返回列表lst 的最小值，要求不使用 min 函数
 '''
@@ -105,9 +132,7 @@ def func(*cc):
     return cc_dict
 
 
-#print(func(3, 5, 3))
-c=func(3, 5, 3)
+# print(func(3, 5, 3))
+c = func(3, 5, 3)
 for i in c.items():
     print(f'数字{i[0]} 出现{i[1]}次')
-
-

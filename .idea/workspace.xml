@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42a6cdb6-d05c-4353-94b4-3840ab8532f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/0416.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0422.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0405.py" beforeDir="false" afterPath="$PROJECT_DIR$/0405.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0422.py" beforeDir="false" afterPath="$PROJECT_DIR$/0422.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/a.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.0416">
+  <component name="RunManager" selected="Python.0422">
     <configuration name="0402" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="koko2024" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,10 +104,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="0422" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="koko2024" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0422.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.0416" />
+        <item itemvalue="Python.0422" />
         <item itemvalue="Python.0405" />
+        <item itemvalue="Python.0416" />
         <item itemvalue="Python.0402" />
       </list>
     </recent_temporary>
