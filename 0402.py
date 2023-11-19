@@ -87,7 +87,7 @@ def prime_number(num_list):
     return set(num_list) - set(a)
 
 
-#print(prime_number(num_list))
+# print(prime_number(num_list))
 
 '''实现猜拳小游戏 II -- 尽量先自己完成
 实现 人 和 电脑的 猜拳游戏
@@ -95,22 +95,63 @@ def prime_number(num_list):
 电脑随机产生 0 到 2 的整数，
 进行输赢对比'''
 aa = 1
+# while aa:
+#     a = random.randint(0, 2)
+#     #print(a)
+#     b = input("请输入0，1，2:")
+#     if a > int(b):
+#         print(f"电脑为{a}输")
+#         y = input('是否继续：Y or N')
+#         if y == 'N':
+#             aa = 0
+#     elif a == int(b):
+#         print(f"电脑为{a}平")
+#         y = input('是否继续：Y or N')
+#         if y == 'N':
+#             aa = 0
+#     else:
+#         print(f"电脑为{a}赢")
+#         y = input('是否继续：Y or N')
+#         if y == 'N':
+#             aa = 0
+
+
 while aa:
-    a = random.randint(0, 2)
-    #print(a)
-    b = input("请输入0，1，2:")
-    if a > int(b):
-        print(f"电脑为{a}输")
-        y = input('是否继续：Y or N')
-        if y == 'N':
-            aa = 0
-    elif a == int(b):
+    a = random.randint(1, 3)
+    b = int(input("请输入手势1=石头，2=剪刀，3=布:"))
+    if a == b:
         print(f"电脑为{a}平")
         y = input('是否继续：Y or N')
         if y == 'N':
             aa = 0
     else:
-        print(f"电脑为{a}赢")
-        y = input('是否继续：Y or N')
-        if y == 'N':
-            aa = 0
+        if a == 1 and b == 2:
+            print(f"电脑为{a}你输")
+            y = input('是否继续：Y or N')
+            if y == 'N':
+                aa = 0
+        if a == 1 and b == 3:
+            print(f"电脑为{a}你赢")
+            y = input('是否继续：Y or N')
+            if y == 'N':
+                aa = 0
+        if a == 2 and b == 1:
+            print(f"电脑为{a}你输")
+            y = input('是否继续：Y or N')
+            if y == 'N':
+                aa = 0
+        if a == 2 and b == 3:
+            print(f"电脑为{a}你输")
+            y = input('是否继续：Y or N')
+            if y == 'N':
+                aa = 0
+        if a == 3 and b == 2:
+            print(f"电脑为{a}你赢")
+            y = input('是否继续：Y or N')
+            if y == 'N':
+                aa = 0
+        if a == 3 and b == 1:
+            print(f"电脑为{a}你输")
+            y = input('是否继续：Y or N')
+            if y == 'N':
+                aa = 0

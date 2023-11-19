@@ -70,23 +70,24 @@ def rang_ll(l=[1, 3, 7, 2, 4, 0]):
                 l[i], l[j] = l[j], l[i]
     return l
 
+
 def rang_l1(l=[1, 3, 7, 2, 4, 0]):
-    for i in range(len(l)-1):
-        for j in range(len(l)-i-1):
-            if l[j] > l[j+1]:
-                l[j], l[j+1] = l[j+1], l[j]
+    for i in range(len(l) - 1):
+        for j in range(len(l) - i - 1):
+            if l[j] > l[j + 1]:
+                l[j], l[j + 1] = l[j + 1], l[j]
     return l
 
 
 # 学习后优化版本
 def rang_ll1(l=[1, 3, 7, 2, 4, 0]):
-    sort_range = len(l)-1
+    sort_range = len(l) - 1
     sort_range_len = 0
-    for i in range(len(l)-1):
+    for i in range(len(l) - 1):
         is_sort = True
         for j in range(sort_range):
-            if l[j] > l[j+1]:
-                l[j], l[j+1] = l[j+1], l[j]
+            if l[j] > l[j + 1]:
+                l[j], l[j + 1] = l[j + 1], l[j]
                 is_sort = False
                 sort_range_len = j
         sort_range = sort_range_len
@@ -122,6 +123,7 @@ def get_min(l=[10, 3, 7, 2, 4, 10]):
 '''
 
 
+# 预习作业
 def func(*cc):
     cc_dict = {}
     for i in cc:
@@ -131,6 +133,14 @@ def func(*cc):
             cc_dict[i] = 1
     return cc_dict
 
+
+# 上课后优化！！！！！
+ac = 'avvffbcc'
+aa = set(ac)
+dict_a = {}
+for i in aa:
+    dict_a[i] = ac.count(i)
+print(dict_a)
 
 # print(func(3, 5, 3))
 c = func(3, 5, 3)
