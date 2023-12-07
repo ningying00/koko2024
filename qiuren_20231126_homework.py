@@ -70,6 +70,27 @@ def w1(param):
 # 如果与这次与上一次结果相同，则记录为一次有效结果+1；否则重置为1并从这一次开始重新记录
 # 记录结果每长度=6则记录一次连续6次相同，并重新开始记录，循环完成返回总共出现的次数
 # 优化：从第96次(倒数第5次）开始，如果结果与上一次不一致，则无需再投掷可跳出循环
+
+# 重新
+def coin1():
+    coin_result = ''
+    for i in range(100):
+        if random.randint(0, 1) == 0:
+            coin_result += 'H'
+        else:
+            coin_result += 'T'
+    if "TTTTTT" in coin_result or "HHHHHH" in coin_result:
+        return 1
+    else:
+        return 0
+
+
+s_sum = 0
+for j in range(1000):
+    s_sum += coin1()
+
+print(s_sum,s_sum/1000)
+###########################################分割线###########################################################################
 @w1(param=1000)
 def toss_coin(num=100, freq=6):
     # 第一次投掷结果
@@ -93,7 +114,7 @@ def toss_coin(num=100, freq=6):
     return result_sum
 
 
-toss_coin(100, 6)
+# toss_coin(100, 6)
 """
 # 记录总的频次-
 result_sum = 0
@@ -194,7 +215,6 @@ class Person:
 
     def eating(self):
         self.weight += 0.1
-
 
 # xm = Person("小明", 80)
 # xm.running()

@@ -13,7 +13,7 @@ def multiplication_sum(num=5):
     return reduce(lambda xx, yy: xx + yy, multiplication_s)
 
 
-# print(multiplication_sum())
+print(multiplication_sum())
 
 '''
     难度等级 II
