@@ -11,16 +11,44 @@ from functools import reduce
 from sys import getsizeof
 
 
+def c_sort(l=[10, 2, 3, 5, 7, 4, 1]):
+    count_sum = 0
+    for i in range(len(l)):
+        index_l = i
+        for j in range(i + 1, len(l)):
+            if l[i] > l[j]:
+                index_l = j
+        if index_l != i:
+            l[i], l[index_l] = l[index_l], l[i]
+            count_sum += 1
+    return l, count_sum
+
+print(c_sort())
+
 def choose_sort(l=[10, 2, 3, 5, 7, 4, 1]):
+    count_sum = 0
     for i in range(len(l)):
         for j in range(i + 1, len(l)):
             if l[i] > l[j]:
                 l[i], l[j] = l[j], l[i]
-    return l
+                count_sum += 1
+    return l, count_sum
 
 
-# print(choose_sort())
+print(choose_sort())
 
+
+def bubble_sort(l=[12, 2, 3, 6, 30, 1]):
+    count_sum = 0
+    for i in range(len(l)):
+        for j in range(len(l) - i - 1):
+            if l[j] > l[j + 1]:
+                l[j], l[j + 1] = l[j + 1], l[j]
+                count_sum += 1
+    return l, count_sum
+
+
+# print(bubble_sort(l=[10, 2, 3, 5, 7, 4, 1]))
 """
 2. 统计⽂件内 字符串个数 难度等级I 有⽂件 a.txt(内容不为空，且有多⾏) 要求：找出出现次数最多的字符
 """
@@ -56,10 +84,10 @@ def count_str():
     print(f"出现最多字符是{sorted_items[0][0]},出现了{sorted_items[0][1]}次")
 
 
-s1 = time.time()
-count_str()
-s2 = time.time()
-print(f"耗时{s2 - s1}")
+# s1 = time.time()
+# count_str()
+# s2 = time.time()
+# print(f"耗时{s2 - s1}")
 
 print(
     "************************************************分割线*************************************************************")
@@ -80,10 +108,10 @@ def count_str2():
     print(f"读取文件占用内存{getsizeof(content)}")
 
 
-s3 = time.time()
-count_str2()
-s4 = time.time()
-print(f"耗时{s4 - s3}")
+# s3 = time.time()
+# count_str2()
+# s4 = time.time()
+# print(f"耗时{s4 - s3}")
 """
 3.难度等级III 实现算法，找出 列表中第⼆⼤的数, 如列表 [3,5,2,8,4,7,9] 第⼆⼤的数是 8
 """
@@ -120,7 +148,7 @@ def multip_sum1(mun=5):
     return m_s
 
 
-#print(multip_sum1())
+# print(multip_sum1())
 #################################分割线############################
 
 
@@ -136,7 +164,7 @@ def multip_sum3(num=5):
     return sum(list(m_s))
 
 
-#print(multip_sum3())
+# print(multip_sum3())
 
 """
 5.难度等级I 输⼊⼀个整数n，⽤⽣成器打印出从 0~n 中的所有偶数
@@ -151,19 +179,19 @@ def pick_even_number(n):
 
 p = pick_even_number(4)
 
-while True:
-    try:
-        print(next(p))
-    except StopIteration:
-        break
+# while True:
+#     try:
+#         print(next(p))
+#     except StopIteration:
+#         break
 
 """
 6.安装好 selenium 并⽤成功打开百度⾸⻚
 """
 from selenium import webdriver
 
-# 未配置环境变量，指定驱动位置
+# 未配置环境变量时，可指定驱动位置
 # driver = webdriver.Chrome(executable_path='F:\python\chromedriver-win64\chromedriver-win64\chromedriver')
-driver = webdriver.Chrome()
-driver.get("http://www.baidu.com/")
-driver.quit()
+# driver = webdriver.Chrome()
+# driver.get("http://www.baidu.com/")
+# driver.quit()
