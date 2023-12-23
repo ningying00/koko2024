@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42a6cdb6-d05c-4353-94b4-3840ab8532f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/1210.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qiuren_20231210_homework.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_1207_practise.py" afterDir="false" />
+    <list default="true" id="e42c4454-a78e-4d39-b197-922e15977700" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/1217.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1217/Modules/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1217/Modules/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1217/Objects/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1217/Objects/login_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1217/Scripts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1217/Scripts/test_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1217/Settings/Config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1217/Settings/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1217/Settings/element_location.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1217/TestData/163mail.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1217/Util/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1217/Util/read_excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1217/Util/read_ini.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1217/Util/tools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1217/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectQiuRen20231217/Modules/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectQiuRen20231217/Modules/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectQiuRen20231217/Objects/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectQiuRen20231217/Objects/login_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectQiuRen20231217/Scripts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectQiuRen20231217/Scripts/test_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectQiuRen20231217/Settings/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectQiuRen20231217/Settings/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectQiuRen20231217/Settings/element_location.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectQiuRen20231217/Utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectQiuRen20231217/Utils/read_excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectQiuRen20231217/Utils/tools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectQiuRen20231217/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1214.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/koko2024.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/koko2024.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1203.py" beforeDir="false" afterPath="$PROJECT_DIR$/1203.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qiuren_20231126_homework.py" beforeDir="false" afterPath="$PROJECT_DIR$/qiuren_20231126_homework.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qiuren_20231203_homework.py" beforeDir="false" afterPath="$PROJECT_DIR$/qiuren_20231203_homework.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiuren_20231210_homework.py" beforeDir="false" afterPath="$PROJECT_DIR$/qiuren_20231210_homework.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,24 +56,28 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2YDZ3dBm8Rvr0qPiRZiVk9gBOJF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2ZkE1PgtAl21xwwZvt3njuIbDEI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
+    &quot;last_opened_file_path&quot;: &quot;F:/python/code/koko2024&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.qiuren_20231210_homework">
-    <configuration name="1210" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\python\code\koko2024\ProjectQiuRen20231217\TestData" />
+      <recent name="F:\python\code\koko2024\ProjectQiuRen20231217\Settings" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for test_login.TestLogin.test_login">
+    <configuration name="Config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="koko2024" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -53,11 +85,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1217/Settings" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1210.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1217/Settings/Config.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -66,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="qiuren_20231126_homework" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="koko2024" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,11 +106,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjectQiuRen20231217/Settings" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qiuren_20231126_homework.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjectQiuRen20231217/Settings/config.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -87,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="qiuren_20231203_homework" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="read_excel (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="koko2024" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -95,11 +127,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjectQiuRen20231217/Utils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qiuren_20231203_homework.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjectQiuRen20231217/Utils/read_excel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,66 +140,56 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="qiuren_20231210_homework" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_login.TestCase.test_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="koko2024" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1217/Scripts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qiuren_20231210_homework.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.TestCase.test_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_login.TestLogin.test_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="koko2024" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjectQiuRen20231217/Scripts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.TestLogin.test_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.qiuren_20231210_homework" />
-        <item itemvalue="Python.1210" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.qiuren_20231126_homework" />
-        <item itemvalue="Python.qiuren_20231203_homework" />
+        <item itemvalue="Python tests.pytest for test_login.TestLogin.test_login" />
+        <item itemvalue="Python tests.pytest for test_login.TestCase.test_login" />
+        <item itemvalue="Python.read_excel (1)" />
+        <item itemvalue="Python.config" />
+        <item itemvalue="Python.Config" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="42a6cdb6-d05c-4353-94b4-3840ab8532f6" name="Changes" comment="" />
-      <created>1700061914501</created>
+      <changelist id="e42c4454-a78e-4d39-b197-922e15977700" name="Changes" comment="" />
+      <created>1702957461395</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1700061914501</updated>
+      <updated>1702957461395</updated>
     </task>
     <servers />
   </component>
@@ -181,8 +203,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
